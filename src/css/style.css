@@ -1,0 +1,13 @@
+body {
+    color: #999;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.window {
+    margin: 10% auto;
+    width: 600px;
+    height: 400px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
