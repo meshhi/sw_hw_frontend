@@ -10,4 +10,35 @@ body {
     height: 400px;
     border: 1px solid black;
     border-radius: 15px;
+    padding: 1rem;
+    position: relative;
+}
+
+.window-title-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.window-title {
+    margin-bottom: 1rem;
+}
+
+.window-title-refresh-button {
+    text-decoration: underline;
+    border: none;
+    color: grey;
+    background-color: transparent;
+}
+
+.no-connection {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #9999996c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
