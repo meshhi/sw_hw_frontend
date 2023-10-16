@@ -48,6 +48,7 @@ module.exports = {
       chunkFilename: '[id].css',
     }),
     new WorkboxPlugin.GenerateSW({
+      swDest: './service-worker.js',
       clientsClaim: true,
       skipWaiting: true,
       cleanupOutdatedCaches: true,
